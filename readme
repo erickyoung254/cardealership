@@ -1,0 +1,40 @@
+# School Timetable
+
+## Overview
+This project is a **Master Timetable for the 2024/2025 Academic Year**, implemented using **HTML** and **CSS**. It provides a structured weekly schedule for different year groups, along with break times, lunch breaks, and special sessions like clubs, games, and meetings.
+
+## Features
+- **Responsive Design:** The timetable adapts to different screen sizes.
+- **Vertically Aligned Text:** Form tutor's time is displayed with vertically aligned letters for better visibility.
+- **Color Coding:** Different elements like breaks and tutor sessions are visually distinguished.
+- **Structured Layout:** The timetable follows a structured format for easy reference.
+
+## Technologies Used
+- **HTML**: Defines the structure of the timetable.
+- **CSS**: Styles the table and improves readability.
+
+## File Structure
+```
+project-folder/
+│── index.html       # Main HTML file containing the timetable
+│── styles.css       # CSS file for additional styling (linked in HTML)
+│── README.md        # Documentation file (this file)
+```
+
+## How to Use
+1. Clone or download this repository.
+2. Open the `index.html` file in any modern web browser.
+3. The timetable will be displayed with structured time slots and year groups.
+
+## Customization
+To modify the timetable:
+- **Update Timetable Data**: Edit the `<tbody>` section of `index.html` to modify subjects, time slots, or year groups.
+- **Modify Styling**: Change `styles.css` or inline styles within the HTML file to adjust table appearance.
+- **Adjust Vertical Text Spacing**: Modify `letter-spacing` and `writing-mode` in the inline styles for `FORM TUTOR'S TIME`.
+
+## Contributors
+- [Erick Mong'are]
+
+## License
+This project is open-source and available for modification and redistribution.
+
